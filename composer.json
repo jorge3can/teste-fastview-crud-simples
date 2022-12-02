@@ -1,0 +1,20 @@
+{
+    "name": "fastview/crud-simples",
+    "description": "Teste CRUD simples",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fastview\\CrudSimples\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jorge C Domingues",
+            "email": "jcantudomin@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.9",
+        "symfony/cache": "^5.3"
+    }
+}
